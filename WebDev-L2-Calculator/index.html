@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CALC//OS — Arithmetic Terminal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="unit">
+  <div class="unit-head">
+    <span class="id">CALC//OS · UNIT-04</span>
+    <span class="status"><span class="dot"></span>ONLINE</span>
+  </div>
+
+  <div class="screen">
+    <div class="trace" id="trace">&nbsp;</div>
+    <div class="readout" id="readout">0</div>
+  </div>
+
+  <div class="pad" id="pad">
+    <button class="key-fn" data-action="clear">C</button>
+    <button class="key-fn" data-action="backspace">⌫</button>
+    <button class="key-fn" data-action="percent">%</button>
+    <button class="key-op" data-action="operator" data-op="÷">÷</button>
+
+    <button class="key-num" data-digit="7">7</button>
+    <button class="key-num" data-digit="8">8</button>
+    <button class="key-num" data-digit="9">9</button>
+    <button class="key-op" data-action="operator" data-op="×">×</button>
+
+    <button class="key-num" data-digit="4">4</button>
+    <button class="key-num" data-digit="5">5</button>
+    <button class="key-num" data-digit="6">6</button>
+    <button class="key-op" data-action="operator" data-op="−">−</button>
+
+    <button class="key-num" data-digit="1">1</button>
+    <button class="key-num" data-digit="2">2</button>
+    <button class="key-num" data-digit="3">3</button>
+    <button class="key-op" data-action="operator" data-op="+">+</button>
+
+    <button class="key-num key-zero" data-digit="0">0</button>
+    <button class="key-num" data-action="decimal">.</button>
+    <button class="key-eq" data-action="equals">=</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
